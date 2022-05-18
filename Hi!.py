@@ -1,0 +1,1 @@
+print("Hi, this is VS Code!!!" * 999)

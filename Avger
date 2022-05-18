@@ -1,0 +1,11 @@
+nums = []
+while True:
+    numstr = input("num or blank")
+    if numstr == "":
+        break
+    nums.append(float(numstr))
+added = sum(nums)
+print("Total:", added)
+numnums = len(nums)
+average = added / numnums
+print("The average is:", average)
