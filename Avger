@@ -1,11 +1,11 @@
 nums = []
 while True:
-    numstr = input("num or blank")
-    if numstr == "":
+    number = input("num or blank")
+    if number == "":
         break
-    nums.append(float(numstr))
+    nums.append(float(number))
 added = sum(nums)
 print("Total:", added)
-numnums = len(nums)
-average = added / numnums
+numinous = len(nums)
+average = added / numinous
 print("The average is:", average)
